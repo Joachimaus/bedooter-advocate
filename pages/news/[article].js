@@ -43,8 +43,8 @@ export default function Article(props) {
             <img src="/ntnewz.svg" alt="NTNewz logo" />
           </a>
         </Link>
-        <div className="subhead">You have been pranked - {new Date().toLocaleDateString()}</div>
-        <h1>{title} - NAH GAMMON BRUZ</h1>
+        <div className="subhead">CL - {new Date().toLocaleDateString()}</div>
+        <h1>{title}</h1>
         <iframe
           width="560"
           height="315"
@@ -55,11 +55,12 @@ export default function Article(props) {
         ></iframe>{' '}
         <br />
         <h1>
-          Shame Job I bet you wanna get your friends now, too.{` `}
-          <Link href="/">
-            <a>Go ahead, do it.</a>
-          </Link>
+          Shame Job
         </h1>
+        <p style="font-size:10px">I bet you wanna get your friends now, too.{` `}
+          <Link href="/">
+            <a>Get em back</a>
+          </Link></p>
       </div>
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;900&display=swap');
