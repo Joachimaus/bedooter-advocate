@@ -40,11 +40,11 @@ export default function Article(props) {
       <div>
         <Link href="/">
           <a>
-            <img src="/trib.png" alt="Tribune logo" />
+            <img src="/ntnewz.svg" alt="NTNewz logo" />
           </a>
         </Link>
         <div className="subhead">You have been pranked - {new Date().toLocaleDateString()}</div>
-        <h2>{title} - NOT</h2>
+        <h1>{title} - NAH GAMMON BRUZ</h1>
         <iframe
           width="560"
           height="315"
@@ -54,15 +54,12 @@ export default function Article(props) {
           allowFullScreen
         ></iframe>{' '}
         <br />
-        <p>
-          Wow, you were pranked so good. I bet you wanna get your friends now, too.{` `}
+        <h1>
+          Nah gammon BRUZ. Shame Job I bet you wanna get your friends now, too.{` `}
           <Link href="/">
             <a>Go ahead, do it.</a>
           </Link>
-        </p>
-        <p className="foot">
-          This is a project lovingly made by <a href="https://twitter.com/cassidoo">@cassidoo</a>!
-        </p>
+        </h1>
       </div>
       <style jsx global>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;900&display=swap');
