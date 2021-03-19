@@ -57,7 +57,7 @@ export default function Article(props) {
         <h1>
           Shame Job
         </h1>
-        <p style="font-size:10px">I bet you wanna get your friends now, too.{` `}
+        <p>I bet you wanna get your friends now, too.{` `}
           <Link href="/">
             <a>Get em back</a>
           </Link></p>
