@@ -9,15 +9,15 @@ export default function Home() {
 
   return (
     <div className="container">
-      <PrankHead title="Chicag0 Tribune News" />
+      <PrankHead title="NTNews.com.au" />
 
       <main>
-        <Header title="Let's prank people!" />
+        <Header title="NTNews.com.au" />
         <div className="description">
-          Type in the prank article you'd like to share with folks: <br />
+          Add in your gammon article to share with drongoes: <br />
           <input
             type="text"
-            placeholder="Cassidy saves entire school"
+            placeholder="Jess Mauboy says Joco is propper nuff"
             value={title}
             onChange={(e) => {
               setTitle(e.target.value)
@@ -27,7 +27,7 @@ export default function Home() {
             <div>
               Send this URL to your friends! <br />
               <Link href={`/news/${title.toLowerCase().split(' ').join('-')}`}>
-                <a>chicag0tribune.netlify.app/news/{title.toLowerCase().split(' ').join('-')}</a>
+                <a>ntnewz.com/news/{title.toLowerCase().split(' ').join('-')}</a>
               </Link>
             </div>
           )}
